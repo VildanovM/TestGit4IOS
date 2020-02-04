@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="0ba2aa20e2c2ce80e9a2db5b07198464" translatesAutoresizingMaskIntoConstraints="NO" id="aYM-ri-3H3">
+                                <rect key="frame" x="0.0" y="186" width="414" height="421"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="421" id="0vf-5r-9ue"/>
+                                    <constraint firstAttribute="width" constant="414" id="1hI-HC-FQX"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Copyright © 2019 Максим Вильданов. All rights reserved." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="obG-Y5-kRd">
+                                <rect key="frame" x="0.0" y="828.5" width="415" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Git4IOS" textAlignment="right" lineBreakMode="middleTruncation" baselineAdjustment="alignBaselines" minimumFontSize="18" translatesAutoresizingMaskIntoConstraints="NO" id="GJd-Yh-RWb">
+                                <rect key="frame" x="84" y="399" width="255" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="DTD-hc-rA3"/>
+                                    <constraint firstAttribute="width" constant="255" id="wkM-Wt-63Y"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="67"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Git4IOS" textAlignment="right" lineBreakMode="middleTruncation" baselineAdjustment="alignBaselines" minimumFontSize="18" translatesAutoresizingMaskIntoConstraints="NO" id="bld-aB-gCz">
+                                <rect key="frame" x="76" y="390" width="263" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="k0c-yl-HRU"/>
+                                    <constraint firstAttribute="width" constant="263" id="p1Z-s4-avc"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="67"/>
+                                <color key="textColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="highlightedColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="bld-aB-gCz" firstAttribute="leading" secondItem="Bcu-3y-fUS" secondAttribute="leading" constant="76" id="Kcb-8z-3FZ"/>
+                            <constraint firstItem="GJd-Yh-RWb" firstAttribute="top" secondItem="Bcu-3y-fUS" secondAttribute="top" constant="355" id="VWZ-Kw-YEP"/>
+                            <constraint firstItem="obG-Y5-kRd" firstAttribute="centerX" secondItem="bld-aB-gCz" secondAttribute="centerX" id="cXL-QQ-EOC"/>
+                            <constraint firstItem="bld-aB-gCz" firstAttribute="top" secondItem="Bcu-3y-fUS" secondAttribute="top" constant="346" id="dqX-Tb-N2X"/>
+                            <constraint firstItem="obG-Y5-kRd" firstAttribute="top" secondItem="bld-aB-gCz" secondAttribute="bottom" constant="358.5" id="irt-Js-Ny7"/>
+                            <constraint firstItem="Bcu-3y-fUS" firstAttribute="trailing" secondItem="GJd-Yh-RWb" secondAttribute="trailing" constant="75" id="kfY-W2-JES"/>
+                            <constraint firstItem="aYM-ri-3H3" firstAttribute="leading" secondItem="Bcu-3y-fUS" secondAttribute="leading" id="lrb-0X-iaf"/>
+                            <constraint firstItem="aYM-ri-3H3" firstAttribute="top" secondItem="Bcu-3y-fUS" secondAttribute="top" constant="142" id="moh-qQ-mQX"/>
+                            <constraint firstItem="obG-Y5-kRd" firstAttribute="top" secondItem="aYM-ri-3H3" secondAttribute="bottom" constant="221.5" id="qfw-et-5gb"/>
+                            <constraint firstItem="obG-Y5-kRd" firstAttribute="top" secondItem="GJd-Yh-RWb" secondAttribute="bottom" constant="349.5" id="rwE-7d-Ovo"/>
+                            <constraint firstItem="Bcu-3y-fUS" firstAttribute="trailing" secondItem="bld-aB-gCz" secondAttribute="trailing" constant="75" id="tQE-Xi-D1A"/>
+                            <constraint firstItem="aYM-ri-3H3" firstAttribute="trailing" secondItem="Bcu-3y-fUS" secondAttribute="trailing" id="vJK-tK-xKJ"/>
+                            <constraint firstItem="obG-Y5-kRd" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="wFR-ba-OoV"/>
+                            <constraint firstItem="GJd-Yh-RWb" firstAttribute="leading" secondItem="Bcu-3y-fUS" secondAttribute="leading" constant="84" id="xKA-7f-9FE"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Bcu-3y-fUS"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.173913043478265" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="0ba2aa20e2c2ce80e9a2db5b07198464" width="800" height="665"/>
+    </resources>
+</document>

@@ -1,0 +1,6 @@
+framework module Pods_Git4IOS_Git4IOSTests {
+  umbrella header "Pods-Git4IOS-Git4IOSTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
